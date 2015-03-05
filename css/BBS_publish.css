@@ -1,0 +1,35 @@
+/*the start of content*/
+#content{
+    width: 100%;
+}
+form{
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #b1b1b1;
+    background: #fff;
+}
+input.Hi_title,textarea{
+    width: 92%;
+    margin: 0;
+    padding: 4%;
+    border: none;
+    border-bottom: 1px solid #b1b1b1;
+    border-radius: 0;
+    font-size: 2.4rem;
+    color: #b1b1b1;
+}
+textarea{
+    height: 50%;
+}
+input[type="submit"]{
+    font-size: 2rem;
+    background: #fc554d;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    color: #fff;
+    border-bottom: 5px solid #ea1300;
+    float: right;
+    margin: 2% 5%;
+}
+/*the end of content*/

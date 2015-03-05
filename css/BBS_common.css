@@ -1,0 +1,198 @@
+html{
+    font-size: 62.5%;
+    font-family: "Microsoft YaHei";
+}
+h2{
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+input,textarea,select{
+    font-family: "FuturaBook";
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size: 1.2rem;
+}
+ul,ol{
+    padding-left:0;
+    list-style-type:none;
+}
+img{
+    border:0;
+}
+a{
+    text-decoration: none;
+}
+input{
+    margin: 0;
+}
+body{
+    background: #f0f0f0;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 92%;
+    padding: 5% 4%;
+    background: #fc574f;
+    overflow: hidden;
+}
+header > img{
+    width: 30%;
+    float: left;
+}
+header p{
+    display: inline-block;
+    float: right;
+    width: 30%;
+}
+header p a{
+    display: inline-block;
+    width: 45%;
+    position: relative;
+}
+header p img{
+    width: 100%;
+}
+header p a span{
+    font-family: "Microsoft Yahei";
+    position: absolute;
+    font-weight: bold;
+    right: 0.5rem;
+    top: 0.1rem;
+    color: #fc574f;
+    font-size: 1.2rem;
+}
+/*the end of header*/
+#page_turn{
+    text-align: center;
+    margin-top: 2rem;
+}
+#page_turn li{
+    display: inline-block;
+    font-size: 1.6rem;
+}
+#page_turn li a{
+    padding: 0.5rem 1rem;
+    border-radius: 1.8rem;
+    background: #ff5a52;
+    color: #fff;
+    position: relative;
+}
+#page_turn li a select{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 27px;
+    opacity: 0;
+    width: 100px;
+}
+#page_turn li a#have_page{
+    background: #fff;
+    color: #666666;
+    margin: 0 0.5rem;
+}
+#page_turn li a#have_page span{
+    padding-right: 1.8rem;
+    background: url("../img/Hi_triangle.png") no-repeat right 50%;
+}
+#page_turn li a#have_page span b{
+    font-weight: normal;
+}
+/*the popup*/
+#popup{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    display: none;
+    z-index: 5;
+}
+#popup div{
+    position: relative;
+    width: 80%;
+    background: #fff;
+    left: 50%;
+    margin-left: -40%;
+    margin-top: 20%;
+}
+#popup div img{
+    position: absolute;
+    right: -2rem;
+    top: -2rem;
+}
+#popup div h1{
+    text-align: center;
+    color: #333333;
+    font-size: 2.6rem;
+    font-weight: normal;
+    padding: 2rem 0 1rem 0;
+    border-bottom: 1px solid #cecece;
+}
+#popup div form{
+    padding: 2% 6%;
+    width: 88%;
+    position: relative;
+}
+#popup div form p{
+    font-size: 1.4rem;
+    color: #fe4232;
+    position: absolute;
+    left: 6%;
+    top: 1%;
+}
+#popup div form input{
+    width: 83%;
+    border-radius: 0.2rem;
+    padding: 5% 1% 5% 16%;
+    font-size: 1.8rem;
+    border: 1px solid #c2c2c2;
+    margin-top: 6%;
+}
+#username{
+    background: url("../img/Hi_user.png") no-repeat 2% 50%;
+}
+#password{
+    background: url("../img/Hi_password.png") no-repeat 2% 50%;
+}
+#popup div form input#login{
+    text-align: center;
+    width: 100%;
+    padding: 5% 0;
+    font-size: 2rem;
+    color: #fff;
+    border: 0;
+    background: #ff5546;
+    border-bottom: 0.8rem solid #f33f30;
+}
+/*the start of footer*/
+footer{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+footer h2{
+    font-weight: normal;
+    color: #666666;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+footer h2 a{
+    margin: 0 1rem;
+    color: #666666;
+}
+footer p{
+    color: #999999;
+    font-size: 1.4rem;
+}
+footer p a{
+    color: #999999;
+    margin: 0 1rem;
+}
